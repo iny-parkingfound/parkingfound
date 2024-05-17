@@ -16,13 +16,95 @@ a {
     color: black;
 }
 
-/* ------------------------------------ main page --------------------------------------- */
-/* header */
-header {
-    display: grid;
-    grid-template-columns: 1fr 0.8fr 0.5fr 0.5fr 0.8fr 0.5fr 0.5fr;
-    margin: 20px 250px;
-    align-items: center;
+@media screen and (min-width: 1606px){   
+    /* ---------------  header ------------------ */
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        margin: 20px 250px;
+        align-items: center;
+    }
+
+    .header-title {
+        margin-left: 50px;
+    }
+
+    .menu1 {
+        margin-left: 50px;
+    }
+    
+    .menu4 {
+        margin-right: 50px;
+    }
+
+    .profile {
+        margin-left: 80px;
+    }
+
+    #hamburger {
+        display: none;
+    }
+    /* ------------------ header-main ---------------- */
+    .header-main {
+        padding: 50px 400px;
+        height: 400px;
+        display: grid;
+        grid-template-rows: 1fr 0.8fr 0.5fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* ----------------- main-popular ----------------- */
+    .popular {
+        margin: 100px 300px;
+    }
+}
+
+@media screen and (max-width: 1605px) {
+    /* ---------------  header ------------------ */
+    .nav {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        position: relative;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    #hamburger {
+        font-size: 2.5rem;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+    .header-title {
+        margin: 20px 50px;
+    }
+
+    /* ------------------ header-main ---------------- */
+    .img {
+        display: none;
+    }
+
+    .header-main {
+        padding: 50px 50px;
+        height: 400px;
+        display: grid;
+        grid-template-rows: 1fr 0.8fr 0.5fr;
+        justify-content: center;
+    }
+
+    /* ----------------- main-popular ----------------- */
+    .popular {
+        margin: 100px 90px;
+    }
+
+}
+
+li {
+    list-style: none;
 }
 
 .profile-img {
@@ -33,7 +115,6 @@ header {
 .header-title{
     width: 250px;
     height: 50px;
-    margin-left: 50px;
 }
 
 
@@ -43,16 +124,7 @@ header {
     text-align: center;
 }
 
-.menu1 {
-    margin-left: 50px;
-}
-
-.menu4 {
-    margin-right: 50px;
-}
-
 .profile {
-    margin-left: 80px;
     font-weight: 900;
     font-size: 0.8rem;
     text-align: center;
@@ -61,19 +133,14 @@ header {
 
 /* header-main */
 .header-main {
+    width: 100%;
     background: url('/src/css/img/1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     background-size: cover;
-    padding: 50px 400px;
-    width: 100%;
-    height: 400px;
     position: relative;
     isolation: isolate;
-    display: grid;
-    grid-template-rows: 1fr 0.8fr 0.5fr;
-    grid-template-columns: 1fr 1fr;
     justify-items: start;
     align-items: center;
 }
@@ -136,9 +203,6 @@ header {
 }
 
 /* main-1 */
-.popular {
-    margin: 100px 300px;
-}
 
 .main-title {
     margin: 20px 0;
