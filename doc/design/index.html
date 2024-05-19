@@ -8,20 +8,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/css/common.css">
     <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></link>
+    <script src="/src/js/index.js" defer></script>
     <title>Parking Find</title>
 </head>
 <body>
     <header>
-        <ul class="nav">
-            <li><img src="/src/css/img/image.png" class="header-title"></img></li>
-            <li class="menu menu1"><a href="">HOME</a></li>
-            <li class="menu menu2"><a href="">주차장 검색</a></li>
-            <li class="menu menu3"><a href="">주차 예약</a></li>
-            <li class="menu menu4"><a href="">Q & A</a></li>
-            <li class="profile"><a href="">이현수님</a></li>
-            <li><img src="/src/css/img/0.png" class="profile-img"></li>
-            <li><i class="fa-solid fa-bars" id="hamburger"></i></li>
-        </ul>
+        <div class="nav-container">
+            <a href="#">
+                <img src="/src/css/img/image.png" class="header-title"></img>
+            </a>
+            <ul class="nav">
+                <li class="menu menu1"><a href="">HOME</a></li>
+                <li class="menu menu2"><a href="">주차장 검색</a></li>
+                <li class="menu menu3"><a href="">주차 예약</a></li>
+                <li class="menu menu4"><a href="">Q & A</a></li>
+                <li class="profile"><a href="">이현수님</a></li>
+                <li><img src="/src/css/img/0.png" class="profile-img"></li>
+            </ul>
+        <i class="fa-solid fa-bars hamburger"></i>
+        <i class="fa-solid fa-x cancel-remove" id="cancel"></i>
+        </div>
     </header>
     <div class="header-main">
         <div class="header-main-title">
@@ -93,13 +99,14 @@
             <h1 class="b-chk-title">내 예약 확인하기</h1>
             <h2 class="b-chk-title2">예약 정보를 손쉽게 확인하세요!</h2>
             <h4 class="b-chk-content">예약한 주차장의 정보를 한눈에 확인할 수 있습니다.</h4>
-            <h4 class="b-chk-content2">예약한 주차장의 날짜, 시간, 장소 등을 간편하게 파악하여</h4>
-            <h4 class="b-chk-content2">변경이나 취소가 필요한 경우 쉽게 관리할 수 있습니다.</h4>
-            <h4 class="b-chk-content2">사용자 편의를 위해 간결하고 직관적인 디자인으로 구성되어 있습니다.</h4>
+            <h4 class="b-chk-content">예약한 주차장의 날짜, 시간, 장소 등을 간편하게 파악하여</h4>
+            <h4 class="b-chk-content">변경이나 취소가 필요한 경우 쉽게 관리할 수 있습니다.</h4>
+            <h4 class="b-chk-content">사용자 편의를 위해 간결하고 직관적인 디자인으로 구성되어 있습니다.</h4>
             <a href="">내 예약 확인하기</a>
         </div>
         <div class="qna-container">
             <h1 class="qna">자주 묻는 질문</h1>
+            <a href="">Q & A</a>
             <div class="qna-title">
                 주차 요금은 어떻게 결제하나요?
             </div>
