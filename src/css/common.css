@@ -175,6 +175,10 @@ a {
         display: none;
     }
 
+    #hamburger {
+        display: none;
+    }
+    
     /* ------------------ header-main ---------------- */
     .img {
         display: none;

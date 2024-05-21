@@ -1,3 +1,20 @@
+// 미디어 쿼리
+if (window.matchMedia("screen and(min-width: 1612px)").matches) {
+    // 부모 클래스 정의
+    const container = document.querySelector('.nav-container');
+    // 자식 클래스 정의
+    const nav = document.querySelector('.nav');
+    const cancel = document.querySelector('.cancel-remove');
+    const ham = document.querySelector('.hamburger');
+
+    
+} else {
+    const idHam = document.querySelector('#hamburger');
+    idHam.removeAttribute('id');
+
+}
+
+// 햄버거 버튼 클릭 이벤트 
 function openham (){
     // 부모 클래스 정의
     const container = document.querySelector('.nav-container');
