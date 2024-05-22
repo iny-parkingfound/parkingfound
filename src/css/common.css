@@ -33,10 +33,9 @@ a {
         margin-left: 80px;
     }
     
-
-    #hamburger {
+    /* #hamburger {
         display: none;
-    }
+    } */
 
     #cancel {
         display: none;
@@ -172,10 +171,6 @@ a {
     }
 
     #cancel {
-        display: none;
-    }
-
-    #hamburger {
         display: none;
     }
     
@@ -555,6 +550,14 @@ li {
     cursor: pointer;
 }
 
-.hamburger-remove {
+/* .hamburger-remove {
+    display: none;
+} */
+
+#hamburger {
+    display: none;
+}
+
+#cancel {
     display: none;
 }
