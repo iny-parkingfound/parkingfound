@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: grid;
+    place-items: center; 
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-login {
+    display: grid;
+    gap: 20px;
+}
+
+.id, .pass {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.username, .userpass {
+    margin-right: 10px;
+}
+
+.user-name, .user-pass {
+    border: none;
+    padding: 10px;
+}
+
+.button {
+    display: grid;
+    gap: 10px;
+}
+
+.login {
+    grid-column: 1 / 2;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
