@@ -17,6 +17,9 @@ h2{
     padding: 10px;
 }
 
+.main-box{
+    padding-top: 5vh;
+}
 .main-box-solo{
     display: grid;
     grid-template-columns: 1fr 2fr 0.5fr;

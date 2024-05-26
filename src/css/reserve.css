@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 10vh;
+}
+
+.sub-title{
+    align-self: start;
+    padding: 10px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.sub-title-sub{
+    color: rgba(128, 128, 128, 0.521);
+}
+
+.main-main{
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    align-items: center;
+    padding: 20px 10px;
+    margin-top: 10vh;
+    border: 1px solid black;
+}
+.man, .reserve-main-man{
+    width: 60px;
+    height: 60px;
+    justify-self: center;
+}
+
+.start{
+    padding-top: 5vh;
+}
+.reserve-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    color: rgba(128, 128, 128, 0.521); 
+}
+.reserve-day{
+    justify-self:end;
+}
+.reserve-main-box{
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr 1fr;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 0; 
+    gap: 10px;
+}
+
+.reserve-main-man{
+    justify-self: center;
+    align-self: center;
+}
+
+.parkingnumber{
+    justify-self: start;
+    align-self: center;
+    padding-left: 10px;
+}
+.height{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px;
+}
+
+.parkingday{
+    justify-self: end;
+}
+
+.car{
+    justify-self: end;
+}
+.cancel{
+    justify-self: end; 
+    align-self: center; 
+    padding: 3px 5px; 
+    background-color: white;
+    border: 1px solid black;
+    color: red; 
+    cursor: pointer; 
+    width: auto; 
+    height: auto; 
+}
+.number-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number{
+    padding: 10px;
+}
+img.number{
+    width: 50px;
+    height: auto;
+}

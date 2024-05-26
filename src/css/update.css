@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    padding-top: 10vh;
+}
+
+.sub-title{
+    align-self: start;
+    padding: 10px;
+}
+
+h3{
+    padding: 10px;
+}
+.sub-title-sub{
+    color: rgba(128, 128, 128, 0.521);
+}
+
+.main-main{
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    align-items: center;
+    padding: 20px 10px;
+    margin-top: 10vh;
+    border: 1px solid black;
+}
+.man, .reserve-main-man{
+    width: 60px;
+    height: 60px;
+    justify-self: center;
+}
+
+.start{
+    padding-top: 5vh;
+    padding-bottom: 10px;
+}
+
+.sub-title-main{
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr;  
+    padding: 15px 0; 
+}
+
+.title{
+    align-self: center; 
+}
+
+.content{
+    align-self: center; 
+}
+
+.change{
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    width: 70%;
+    height: auto;
+    justify-self: end;
+    align-self: end;    
+}
+
+.end{
+    display: grid;
+    padding-top: 40px;
+    grid-template-columns: repeat(7, 1fr);
+}
+.yes{
+    grid-column: 3/3;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+.no{
+    grid-column: 5/5;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.padding{
+    padding: 15px;
+}
