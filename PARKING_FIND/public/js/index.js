@@ -11,7 +11,7 @@ function changeId() {
             // 부모 클래스 정의
             const container = document.querySelector('.nav-container');
             // 자식 클래스 정의
-            const nav = document.querySelector('.nav');
+            const nav = document.querySelector('#nav');
             const cancel = document.querySelector('.fa-x');
             const ham = document.querySelector('.fa-bars');
 
@@ -20,9 +20,10 @@ function changeId() {
             // 햄버거 아이콘 아이디 추가 + css 추가
             ham.setAttribute('id','hamburger');
 
-            nav.classList.remove('nav');
+            nav.classList.toggle('nav2');
+            // nav.classList.remove('nav');
             // 새 메뉴 클래스 추가
-            nav.classList.add('nav2');
+            // nav.classList.add('nav2');
 
             // 햄버거 아이콘 css 제거
             ham.classList.remove('hamburger');
@@ -31,7 +32,7 @@ function changeId() {
             cancel.classList.add('cancel');
 
             // 새 메뉴 css 적용
-            nav.setAttribute('class', 'nav2');
+            // nav.setAttribute('class', 'nav2');
             container.appendChild(nav);
         }
 
@@ -43,17 +44,18 @@ function changeId() {
             // 부모 클래스 정의
             const container = document.querySelector('.nav-container');
             // 자식 클래스 정의
-            const nav = document.querySelector('.nav2');
+            const nav = document.querySelector('#nav');
             const cancel = document.querySelector('.fa-x');
             const ham = document.querySelector('.fa-bars');
         
             // 햄버거 아이콘 아이디 제거
             ham.setAttribute('id', 'hamburger'); 
         
+            nav.classList.toggle('nav2');
             // 기존 메뉴 클래스 제거
-            nav.classList.add('nav');
+            // nav.classList.add('nav');
             // 새 메뉴 클래스 추가
-            nav.classList.remove('nav2');
+            // nav.classList.remove('nav2');
         
             // 햄버거 아이콘 css 추가
             ham.classList.add('hamburger');
@@ -62,7 +64,7 @@ function changeId() {
             cancel.classList.remove('cancel');
             
             // 메뉴바 안보이게 css 적용
-            nav.setAttribute('class', 'nav');
+            // nav.setAttribute('class', 'nav');
             container.appendChild(nav);
         }
         const cancel = document.querySelector('.fa-x');
@@ -78,7 +80,7 @@ function changeId() {
             // 부모 클래스 정의
             const container = document.querySelector('.nav-container');
             // 자식 클래스 정의
-            const nav = document.querySelector('.nav2');
+            const nav = document.querySelector('#nav');
             const cancel = document.querySelector('.fa-x');
             const ham = document.querySelector('.fa-bars');
         
@@ -87,10 +89,11 @@ function changeId() {
             // x 아이콘 아이디 추가 + css 추가
             cancel.setAttribute('id', 'cancel');
         
+            nav.classList.toggle('nav2');
             // 기존 메뉴 클래스 제거
-            nav.classList.add('nav');
+            // nav.classList.add('nav');
             // 새 메뉴 클래스 추가
-            nav.classList.remove('nav2');
+            // nav.classList.remove('nav2');
         
             // 햄버거 아이콘 css 추가
             ham.classList.add('hamburger');
@@ -99,7 +102,7 @@ function changeId() {
             cancel.classList.remove('cancel');
         
             // 메뉴바 안보이게 css 적용
-            nav.setAttribute('class', 'nav');
+            // nav.setAttribute('class', 'nav');
             container.appendChild(nav);
         }
         const cancel = document.querySelector('.fa-x');
