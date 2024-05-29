@@ -60,6 +60,9 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    right: 500px;
+    bottom: 120px;
 }
 .number{
     padding: 10px;

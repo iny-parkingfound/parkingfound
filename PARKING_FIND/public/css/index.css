@@ -555,3 +555,7 @@ li {
 #cancel {
     display: none;
 }
+.iconham, .iconx{
+    width: 30px;
+    height: 30px;
+}

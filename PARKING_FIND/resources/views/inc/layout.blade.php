@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
     <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></link>
     <link rel="stylesheet" href="/css/index.css">
-    @yield('script')
+    <script src="/js/index.js" defer></script>
     <title>Parking Find</title>
 </head>
 
