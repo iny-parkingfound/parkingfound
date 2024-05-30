@@ -14,8 +14,7 @@
         </select>
     
     <div class="main-text">
-        <textarea class="text-box" type="text" id="text-box" placeholder="접수된 문의를 순차적으로 답변을 드리고 있습니다.">
-    </textarea>
+        <textarea class="text-box" type="text" id="text-box" placeholder="접수된 문의를 순차적으로 답변을 드리고 있습니다."></textarea>
     <div class="button-st">
     <button type="submit" class="start">작성하기</button>
     <a class="end" href="{{ route('question') }}">취소</a>

@@ -32,3 +32,11 @@ Route::get('/question', function() {
 Route::get('/createpost', function() {
     return view('createpost');
 })->name('createpost');
+
+Route::get('/reserve', function() {
+    return view('reserve');
+})->name('reserve');
+
+Route::get('update', function(){
+    return view('update');
+})->name('update');
