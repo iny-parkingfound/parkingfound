@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-head{
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1fr 0.3fr 1fr;
+    justify-items: center;
+    margin: 0 20px;
+    gap: 60px;
+}
+.container{
+    display: grid;
+    justify-content: space-around;
+    align-content: start; 
+    padding-top: 10vh;
+}
+.main{
+    padding: 5px;
+    background-color : #E7DAD4;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+
+.sub{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+
+h2{
+    padding: 10px;
+}
+.main-box{
+    padding: 10px; 
+}
+.main-box-name-title{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-collapse: collapse;
+}
+.main-box-name{
+    width: 120px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    background-color: #ece7e5;
+}
+.main-box-title{
+    padding: 10px;
+    margin-left: 10px;
+}
+.h3-all{
+    padding: 10px;
+}
+.sub-one-box{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 0.3fr 1fr;
+    padding: 10px 0;
+    width: 900px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+select{
+    width: 300px;
+}
+.time{
+    text-align: center;
+}
+.sub-two-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 950px;
+    padding: 10px;
+    text-align: center;
+}
+.total{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #ece7e5;
+    border-collapse: collapse;
+}
+.money{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+p{
+    padding: 3px;
+    color: #07FFD5;
+}
+
+table{
+    width: 950px;
+    margin: 0 auto;
+}
+table, th, td{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border-top: 1px solid black;
+    background-color: #E7DAD4;
+}
+.text{
+    font-weight: 600;
+}
+
+.chk{
+    padding: 10px;
+    text-align: end;
+    color: red;
+}
+.nextbutton{
+    padding: 5px;
+    background-color: #E7DAD4;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    text-decoration-line:none;
+    margin: 0 auto;
+}
+
+/* 디스플레이 논 */
+.my-display-none {
+    display: none;
+}

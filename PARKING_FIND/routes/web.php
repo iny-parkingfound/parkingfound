@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/reservation', function() {
+    return view('reservation1');
+})->name('reservation');
+
+Route::post('/reservation/{page?}', function($page = 2) {
+    return view('reservation'.$page);
+})->name('reservation');
+
+Route::get('/question', function() {
+    return view('question');
+})->name('question');

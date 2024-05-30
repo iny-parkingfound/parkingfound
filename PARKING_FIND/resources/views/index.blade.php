@@ -1,7 +1,6 @@
 @extends('inc.layout')
 
 @section('main')
-    <body>
         <div class="header-main">
             <div class="header-main-title">
                 주차를 편리하게<br>오늘도 안전하게!
@@ -112,6 +111,4 @@
                 </div>
             </div>
         </main>
-    </body>
-    </html>
 @endsection
