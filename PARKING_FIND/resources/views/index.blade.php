@@ -61,7 +61,7 @@
                     <img src="/img/패스 4.png">
                     스트레스 없는 주차하세요
                 </h4>
-                <a href="">예약하기</a>
+                <a href="{{ route('reservation') }}">예약하기</a>
                 <img src="/img/5.jpg" class="book-img">
                 <img src="/img/그룹 10.png" class="book-img2">
                 <img src="/img/그룹 9.png" class="book-img3">
@@ -78,7 +78,7 @@
             </div>
             <div class="qna-container">
                 <h1 class="qna">자주 묻는 질문</h1>
-                <a href="">Q & A</a>
+                <a href="{{ route('question') }}">Q & A</a>
                 <div class="qna-title">
                     주차 요금은 어떻게 결제하나요?
                 </div>
