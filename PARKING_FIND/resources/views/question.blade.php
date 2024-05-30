@@ -8,7 +8,7 @@
 <div class="container">
     <h2> Q & A</h2>
     <div class="main-head">
-        <a class="nextbutton" href="{{ route('question') }}">글쓰기</a>
+        <a class="nextbutton" href="{{ route('createpost') }}">글쓰기</a>
     </div>
     <div class="outer-container">
     <div class="main-container">
