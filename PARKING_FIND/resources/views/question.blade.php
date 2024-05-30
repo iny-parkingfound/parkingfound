@@ -74,6 +74,22 @@
                 <h3>05/19</h3>
             </div>
         </div>
+        <div class="main-container">
+            <div class="main-title">
+                <h3>1</h3>
+                <h3>이현수</h3>
+                <h3>이현수</h3>
+                <h3>05/19</h3>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main-title">
+                <h3>1</h3>
+                <h3>이현수</h3>
+                <h3>이현수</h3>
+                <h3>05/19</h3>
+            </div>
+        </div>
 
         <div class="number-container">
             <img class="number" src="/src/css/img/그룹 14.png">

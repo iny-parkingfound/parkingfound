@@ -532,6 +532,7 @@ li {
     font-weight: 900;
     text-align: center;
     position: relative;
+    transform : translateY(170%);
 }
 
  /* 햄버거 버튼 클릭 시 */
