@@ -28,3 +28,7 @@ Route::post('/reservation/{page?}', function($page = 2) {
 Route::get('/question', function() {
     return view('question');
 })->name('question');
+
+Route::get('/createpost', function() {
+    return view('createpost');
+})->name('createpost');
