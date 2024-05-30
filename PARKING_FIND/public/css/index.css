@@ -17,6 +17,8 @@ a {
     .nav-container {
         display: grid;
         grid-template-columns: 0.4fr auto;
+        align-content: center;
+        height: 94px;
     }
     .nav {
         display: grid;
@@ -157,7 +159,7 @@ a {
     .hamburger {
         font-size: 2.5rem;
         position: absolute;
-        top: 20px;
+        top: 30px;
         right: 30px;
         cursor: pointer;
     }
@@ -500,24 +502,24 @@ li {
 
 .top {
     padding: 5px;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     background-color: black;
     border: 1px solid black;
     border-radius: 10px;
     color: white;
     font-size: 2rem;
     text-align: center;
-    line-height: 50px;
+    line-height: 30px;
     position: fixed;
     bottom: 8%;
     right: 2%;
 }
 
 .top img {
-    height: 30px;
-    width: 30px;
-    margin-bottom: 5px;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 
@@ -530,6 +532,7 @@ li {
     font-weight: 900;
     text-align: center;
     position: relative;
+    transform : translateY(170%);
 }
 
  /* 햄버거 버튼 클릭 시 */
