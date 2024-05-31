@@ -50,5 +50,5 @@ Route::get('/login', function(){
 })->name('login');
 
 Route::get('/register', function(){
-    return view('login');
+    return view('register');
 })->name('register');
