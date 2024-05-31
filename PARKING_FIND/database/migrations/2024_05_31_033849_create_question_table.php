@@ -16,9 +16,10 @@ return new class extends Migration
         Schema::create('question', function (Blueprint $table) {
             $table->id();
             $table->string('title', 30);
+            $table->string('content', 3000);
             $table->string('name');
-            $table->datetime('created_at')->useCurrent();
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
