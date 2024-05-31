@@ -42,4 +42,6 @@ select{
     grid-column: 4/4;
     color: black;
     padding: 10px;
+    border: 1px solid black;
+    text-align: center;
 }
