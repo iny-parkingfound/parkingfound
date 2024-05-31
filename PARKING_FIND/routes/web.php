@@ -47,7 +47,11 @@ Route::get('/register', function(){
     return view('register');
 })->name('register');
 
+// 회원가입
 Route::post('/register', [UserController::class, 'register'])->name('register.post');
+
+// 이메일 중복
+Route::post('/user/chk', [UserController::class, 'accountChk']);
 
 Route::get('/question', [QuestionController::class, 'index'])->name('question');
 

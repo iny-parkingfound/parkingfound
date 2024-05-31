@@ -1,5 +1,5 @@
-document.querySelector('#account-chk').addEventListener('click', chkaccount);
-async function chkaccount() {
+document.querySelector('#account-chk').addEventListener('click', accountChk);
+async function accountChk() {
     try {
         console.log('자바스크립트 연결 확인')
         const account = document.querySelector('#account').value;
@@ -12,7 +12,7 @@ async function chkaccount() {
         // ajax 처리
         const response = await axios.post(url, form)
 
-        // const complete = document.querySelector('#complete');
+        const complete = document.querySelector('#complete');
         const printChkaccount = document.querySelector('#print-chk-account')
         printChkaccount.innerHTML = '';
 
@@ -20,11 +20,11 @@ async function chkaccount() {
         if(response.data.accountFlg) {
             // 중복 이메일
             printChkaccount.innerHTML = '사용불가';
-            // complete.setAttribute('disabled', 'disabled');
+            complete.setAttribute('disabled', 'disabled');
         } else {
             // 사용가능 이메일
             printChkaccount.innerHTML = '사용가능';
-            // complete.removeAttribute('disabled');
+            complete.removeAttribute('disabled');
         }
         
     } catch (error) {
