@@ -90,15 +90,14 @@
                 <h3>05/19</h3>
             </div>
         </div>
-
         <div class="number-container">
-            <img class="number" src="/src/css/img/그룹 14.png">
+            <img class="number" src="/img/그룹 14.png">
             <div class="number">1</div>
             <div class="number">2</div>
             <div class="number">3</div>
             <div class="number">4</div>
             <div class="number">5</div>
-            <img class="number" src="/src/css/img/그룹 7.png">
+            <img class="number" src="/img/그룹 7.png">
         </div>
     </div>
 </div>
