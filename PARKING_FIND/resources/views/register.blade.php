@@ -5,11 +5,11 @@
 @endsection
 
 @section('script')
-    <script src="/js/regist.js" defer></script>
+    <script src="/js/register.js" defer></script>
 @endsection
 
 @section('main')
-    <form action="register" action="" method="post">
+    <form action="{{ route('register') }}" method="post">
         @csrf
         <div class="container">
             <h2>회원가입</h2>

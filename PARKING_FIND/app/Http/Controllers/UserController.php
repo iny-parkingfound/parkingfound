@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Validator;
 class UserController extends Controller
 {
     // 회원가입 처리
-    public function regist(Request $request) {
+    public function register(Request $request) {
         // 유효성 검사
         $request->validate([
             'email' => ['required', 'max:50', 'regex:/^[a-z][a-z0-9]$']

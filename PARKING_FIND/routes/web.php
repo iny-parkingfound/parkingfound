@@ -50,4 +50,8 @@ Route::get('/login', function(){
     return view('login');
 })->name('login');
 
-Route::get('/register', [UserController::class, 'regist'])->name('register');
+Route::get('/register', function(){
+    return view('register');
+})->name('register');
+
+Route::post('/register', [UserController::class, 'register'])->name('register.post');
