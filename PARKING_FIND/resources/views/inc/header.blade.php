@@ -10,6 +10,7 @@
             <li class="menu menu4"><a href="{{ route('question') }}">Q & A</a></li>
             <li class="profile"><a href="{{ route('reserve') }}">이현수님</a></li>
             <li class="profile-img"><a href="{{ route('reserve') }}"><img src="/img/0.png" class="profile-img2"></a></li>
+            <li class="menu"><a href="{{ route('login') }}">로그아웃</a></li>
         </ul>
     <img src="/img/ham2.png" class="iconham hamburger" id="hamburger">
     <img src="/img/x2.png" class="iconx" id="cancel">
