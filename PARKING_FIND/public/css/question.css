@@ -58,11 +58,8 @@ h2{
 }
 .number-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    right: 500px;
-    bottom: 120px;
+    position:absolute;
+    right: 550px;
 }
 .number{
     padding: 10px;
