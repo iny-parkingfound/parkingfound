@@ -60,6 +60,7 @@ h2{
     display: flex;
     position:absolute;
     right: 550px;
+    top: 500px; 
 }
 .number{
     padding: 10px;
