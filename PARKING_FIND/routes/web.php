@@ -40,3 +40,15 @@ Route::get('/reserve', function() {
 Route::get('update', function(){
     return view('update');
 })->name('update');
+
+Route::get('/delete', function(){
+    return view('delete');
+})->name('delete');
+
+Route::get('/login', function(){
+    return view('login');
+})->name('login');
+
+Route::get('/register', function(){
+    return view('login');
+})->name('register');
