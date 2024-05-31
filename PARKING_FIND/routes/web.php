@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,14 +27,6 @@ Route::post('/reservation/{page?}', function($page = 2) {
     return view('reservation'.$page);
 })->name('reservation');
 
-Route::get('/question', function() {
-    return view('question');
-})->name('question');
-
-Route::get('/createpost', function() {
-    return view('createpost');
-})->name('createpost');
-
 Route::get('/reserve', function() {
     return view('reserve');
 })->name('reserve');
@@ -55,3 +48,7 @@ Route::get('/register', function(){
 })->name('register');
 
 Route::post('/register', [UserController::class, 'register'])->name('register.post');
+
+Route::get('/question', [QuestionController::class, 'index'])->name('question');
+
+Route::get('/createpost', [QuestionController::class, 'create'])->name('createpost');
