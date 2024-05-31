@@ -4,18 +4,13 @@
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-    display: grid;
-    place-items: center; 
-}
-
 .container {
     display: grid;
     gap: 20px;
     width: 100%;
     max-width: 400px;
     padding: 20px;
+    margin: 100px auto;
 }
 
 h2 {
